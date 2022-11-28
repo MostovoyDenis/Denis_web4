@@ -1,0 +1,179 @@
+
+.color{
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(255, 100, 100);
+}
+
+header{
+    height: 160px;
+    background: rgb(175, 60, 60);
+    width: 100%;
+    border: thick double rgb(0, 0, 0);;
+}
+
+.header__text{
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+header img{
+    float: left;
+    height: 140px;
+    width: 200px;
+}
+
+.nav{ 
+    list-style: none;
+} 
+
+a{
+display: inline-block;
+  font-size: 120%;
+  font-weight: 800%;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(209, 4, 55), rgb(224, 45, 173) 50%, rgb(252, 249, 252) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.nav-item li{
+    background-color:rgba(255, 100, 100) ;
+    /* width: 90%; */
+    text-align: center; 
+    /* margin: 10px;  */
+    font-size: 1ch;
+    border: 0.5px solid ;
+    /* padding: 10px; */
+}
+
+.nav a{
+    color: rgb(0, 0, 0);
+    display: block; 
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: rgb(35, 202, 160);
+    transition: 0.3s linear;
+}
+
+.container{
+    font-family: 'Space Mono', monospace;
+}
+
+.content-of-body{
+    background-color: rgb(255, 100, 100);  
+}
+
+.conURLS img{
+    width: 100%;
+}
+.container__table{
+    background-color: rgb(151, 46, 46);
+}
+.container__form{
+    background-color: rgb(156, 48, 48);
+}
+.conURLS {
+    background-color: rgb(156, 48, 48);
+}
+.nav a{
+    background-color: rgb(175, 60, 60);
+    font-size: 20px;
+}
+
+.tables{
+    background-color: rgb(156, 48, 48);
+}
+table{
+    /* width: 100%; */
+    font-size: 22px;
+    font-family: 'Space Mono', monospace;
+    text-decoration: underline;
+    background-color: rgb(156, 48, 48); 
+}
+
+table,th,td{
+    border: 2px solid; 
+    border-color: black;
+    text-align: center;
+}
+
+.conURLS a{
+    display: inline-block;
+    font-size: 120%;
+    font-weight: 800%;
+    color: rgb(15, 15, 16);
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(209, 4, 55), rgb(224, 45, 173) 50%, rgb(252, 249, 252) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.conURLS a:hover{
+    color: rgba(158, 99, 22, 0.733) ;
+    transition: 0.3s linear;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(156, 48, 48);
+}
+tbody tr:nth-child(even){
+    background-color: rgba(175, 60, 60);
+}
+
+.table a{
+    color: rgb(48, 46, 46);   
+}
+
+.table a:hover{
+    color: rgba(23, 23, 24, 0.733) ;
+    transition: 0.3s linear;
+} 
+
+.content-of-form{
+    font-family: 'Space Mono', monospace;
+    border:2px solid;
+}
+
+.content-of-form input{
+    background-color: rgb(244, 240, 240);
+    color: rgba(14, 14, 15, 0.733);
+}
+
+.content-of-form select{
+    background-color: rgb(252, 250, 250);
+    color: rgba(6, 6, 7, 0.733);
+}
+
+.content-of-form textarea{
+    background-color: rgb(243, 237, 237);
+    color: rgba(8, 8, 9, 0.733);
+}
+
+.footer{
+    width: 100%;
+    background-color: rgba(175, 60, 60);
+    border: 5px groove  rgba(175, 60, 60);
+}
+.footrow{
+    height: 60px;
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(175, 60, 60);
+    box-shadow: 10px 10x 10px 5px rgba(57, 58, 57, 0.5);
+}
+.foottext{
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
